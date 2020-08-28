@@ -1,4 +1,4 @@
-/**
+﻿/**
 * Template Name: Studio
 * Template URL: https://templatemag.com/studio-bootstrap-agency-template/
 * Author: TemplateMag.com
@@ -483,6 +483,20 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 25px;
 }
 
+.twitter-feed {
+	position: static;
+	visibility: visible;
+	display: inline-block;
+	width: 250px;
+	height: 600px;
+	padding: 0px;
+	border: medium none;
+	max-width: 100%;
+	min-width: 180px;
+	margin-top: 0px;
+	margin-bottom: -200px;
+	min-height: 200px;
+}
 
 
 /* Contact Form */
