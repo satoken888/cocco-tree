@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #1a1a1a;
+	background: #e2ba75;
 	width: 200px;
 	height: 100%;
 }
@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Contact Wrap */
 #contactwrap {
-	background-color: #2f2f2f;
+	background-color: #b5996a;
 	margin-top: 0px;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -599,7 +599,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Copyrights */
 
 #copyrights {
-  background: #222222;
+  background: #e2ba75;
   padding: 20px 0;
   text-align: center;
 }
