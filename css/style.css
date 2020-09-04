@@ -154,6 +154,41 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 40px;
 	margin: 25px 2px;
 }
+/*submenuの詳細*/
+label {
+    display: block;
+    color :#da8111;
+    cursor :pointer;
+
+    margin-left: 20px;
+  	font-size: 12px;
+  	font-weight: 700;
+  	line-height: 40px;
+  	letter-spacing: 0.1em;
+  	text-transform: uppercase;
+}
+input {
+  display: none;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    background :#fff1bc;
+    list-style: none;
+}
+.menu li {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#menu_bar01:checked ~ #links01 li{
+    height: 54px;
+    opacity: 1;
+}
 
 .menu-close {
 	cursor: pointer;
