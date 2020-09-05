@@ -1,4 +1,4 @@
-﻿/**
+/**
 * Template Name: Studio
 * Template URL: https://templatemag.com/studio-bootstrap-agency-template/
 * Author: TemplateMag.com
@@ -436,7 +436,12 @@ input {
 }
 
 .service .text {
-	color: #767676
+	color: #da8112;
+}
+.service .price{
+  font-size: 15px;
+  text-align: right;
+  color: gray;
 }
 
 /* Testimonials Wrap */
