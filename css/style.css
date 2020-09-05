@@ -168,6 +168,12 @@ label {
   	letter-spacing: 0.1em;
   	text-transform: uppercase;
 }
+
+label:hover{
+  text-decoration: underline;
+  background-color: #fff1bc;
+}
+
 input {
   display: none;
 }
