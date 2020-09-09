@@ -421,6 +421,7 @@ input {
 
 .service {
 	text-align: left;
+  display: contents;
 }
 
 .service small {
