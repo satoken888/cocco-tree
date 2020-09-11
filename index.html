@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35,8 +35,10 @@
             <i class="fa fa-times menu-close"></i>
             <a href="#home" class="smoothscroll">Home</a>
             <a href="#about" class="smoothscroll">About</a>
-            <label for="menu_bar01">MENU...</label>
-            <input type="checkbox" id="menu_bar01" class="sub_menu" />
+            <!--label for="menu_bar01"-->
+            <a class="smoothscroll" href=#menu>MENU...</a>
+            <!--/label-->
+            <!--input type="checkbox" id="menu_bar01" class="sub_menu" /-->
             <!--a href="#" class="smoothscroll">Menu</a-->
             <ul id="links01">
                 <li> <a b href="#pancake" class="smoothscroll">Pancake</a>
@@ -129,10 +131,31 @@
             <div class="container">
                 <div class="row">
                     <h1>MENU</h1>
+                    <!-- List -->
+                    <div class="et_pb_module">
+                      <button id="pancake" class='secList'>Pancake</button>
+                    </div>
+
+                    <div class="et_pb_module">
+                      <button id="seasonal" class='secList'>Seasonal</button>
+                    </div>
+
+                    <div class="et_pb_module">
+                      <button id="takeout" class='secList'>Takeout</button>
+                    </div>
+
+                    <div class="et_pb_module">
+                      <button id="lunch" class='secList'>Lunch</button>
+                    </div>
+
+                    <!--div class="et_pb_module">
+                      <button id="setdrink" class='secList'>SetDrinkBar</button>
+                    </div-->
+
 
                     <section id="pancake" name="menu"></section>
 
-                    <div class="container">
+                    <div class="container pancake section">
                         <div class="row">
                             <h1>Pancake</h1>
                             <p>ナイフのいらないふわふわわたぐもパンケーキ</p>
@@ -228,7 +251,7 @@
 
                     <section id="seasonal" name="menu"></section>
 
-                    <div class="container">
+                    <div class="container seasonal section">
                         <div class="row">
                             <h1>SEASONAL</h1>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
@@ -281,7 +304,7 @@
 
                     <section id="takeout" name="menu"></section>
 
-                    <div class="container">
+                    <div class="container takeout section">
                         <div class="row">
                             <h1>TAKEOUT</h1>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
@@ -375,7 +398,7 @@
 
                 <section id="lunch" name="menu"></section>
 
-                <div class="container">
+                <div class="container lunch section">
                   <div class="row">
                       <h1>LUNCH <br>(10:00-14:00)</h1>
                         <p>※すべてにミニサラダとスープが付きます</p>
@@ -384,13 +407,13 @@
                             <p>会津地鶏のふわとろオムライス</p>
                             <p class="text">会津地鶏の卵を使用し、ふわとろに仕上げた自慢の一品。コッコツリーといったらこれです！！</p>
                             <p class="price">単品 ¥782+税</p>
-                            <p class="price"><a href=#setdrink>ドリンクバーセット ¥1132+税</a></p>
+                            <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1132+税</a></p>
                           </div>
                             <div class="col-lg-3 service">
                             <p>冷製トマトのクリーミーパスタ</p>
                             <p class="text">パスタに生クリーム？！実はこれ、ビシソワーズを泡状にしたクリームなんです！新感覚の冷製パスタぜひお試しください。</p>
                             <p class="price">単品 ¥827+税</p>
-                            <p class="price"><a href=#setdrink>ドリンクバーセット ¥1177+税</a></p>
+                            <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1177+税</a></p>
                           </div>
                           <div class="col-lg-3 service">
                             <p>会津地鶏の石焼きビーフシチューオムライス</p>
@@ -402,7 +425,7 @@
                             </div>
                             <p class="text">ホロホロっととろけてしまうビーフシチューは絶品です！たまには贅沢なランチしてみませんか？</p>
                             <p class="price">単品 ¥1200+税</p>
-                            <p class="price"><a href=#setdrink>ドリンクバーセット ¥1550+税</a></p>
+                            <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1550+税</a></p>
                           </div>
                           <div class="col-lg-3 service">
                             <p>会津地鶏卵のふわっとホットサンド</p>
@@ -415,7 +438,7 @@
                             </div>
                             <p class="text">ふわとろのオムレツとトマト、レタス、玉ねぎが入っています。お持ち帰りもできます。</p>
                             <p class="price">単品 ¥650+税</p>
-                            <p class="price"><a href=#setdrink>ドリンクバーセット ¥1000+税</a></p>
+                            <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1000+税</a></p>
                           </div>
 
 
@@ -423,7 +446,7 @@
                             <p>とろとろのとろ〜りチーズカレー</p>
                             <p class="text">ピリ辛なキーマカレーとまろやかな卵とチーズが相性抜群!</p>
                             <p class="price">単品 ¥782+税</p>
-                            <p class="price"><a href=#setdrink>ドリンクバーセット ¥1132+税</a></p>
+                            <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1132+税</a></p>
                           </div>
 
                 </div>

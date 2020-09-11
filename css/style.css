@@ -445,6 +445,32 @@ input {
   color: gray;
 }
 
+/* menuの表示非表示のクラス*/
+
+.et_pb_module {
+  display: inline-block;
+}
+
+
+.secList {
+  display: inline-block;
+  margin: 5px;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: orange;
+  border: solid 2px orange;
+  border-radius: 3px;
+  transition: .4s;
+  background-color: azure;
+}
+
+.secList:hover {
+  background: orange;
+  color: yellow;
+}
+
+
+
 /* Testimonials Wrap */
 #testimonials {
 	display: block;
