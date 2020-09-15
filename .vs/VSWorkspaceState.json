@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
-    "\\img"
+    "\\lib",
+    "\\lib\\bootstrap",
+    "\\lib\\bootstrap\\css"
   ],
-  "SelectedNode": "\\img\\抹茶1-smaller.jpg",
+  "SelectedNode": "\\css",
   "PreviewInSolutionExplorer": false
 }

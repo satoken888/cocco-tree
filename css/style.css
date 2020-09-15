@@ -64,14 +64,13 @@ body {
 }
 
 body {
-    font-family: "Lato" sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #000;
-    background-color: #fdd77d;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+	font-family: 游ゴシック体, "Yu Gothic", YuGothic;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000;
+	background-color: #fdd77d;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -476,7 +475,7 @@ width: 100%;
 }
 
 /* Testimonials Wrap */
-#testimonials {
+#socialmedia {
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
