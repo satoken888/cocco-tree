@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -28,113 +28,116 @@
 </head>
 
 <body>
+
     <!-- Menu -->
     <nav class="menu" id="theMenu">
         <div class="menu-wrap">
-            <h1 class="logo"><a href="#home" class="smoothscroll">Cocco tree</a></h1>
+            <h1 class="logo"><a href="#home" class="smoothscroll">Studio</a></h1>
             <i class="fa fa-times menu-close"></i>
             <a href="#home" class="smoothscroll">Home</a>
             <a href="#about" class="smoothscroll">About</a>
-            <!--label for="menu_bar01"-->
-            <a class="smoothscroll" href=#menu>MENU...</a>
-            <!--/label-->
-            <!--input type="checkbox" id="menu_bar01" class="sub_menu" /-->
-            <!--a href="#" class="smoothscroll">Menu</a-->
-            <ul id="links01">
-                <li> <a b href="#pancake" class="smoothscroll">Pancake</a>
-                <li> <a b href="#seasonal" class="smoothscroll">Seasonal</a>
-                <li> <a b href="#takeout" class="smoothscroll">Takeout</a>
-                <li> <a b href="#lunch" class="smoothscroll">Lunch(10:00-14:00)</a>
-            </ul>
-
-            <a href="#recommend" class="smoothscroll">recommend</a>
-            <a href="#access" class="smoothscroll">access</a>
+            <a href="#menu" class="smoothscroll">Menu</a>
+            <a href="#recommend" class="smoothscroll">Recommend</a>
+            <a href="#services" class="smoothscroll">Services</a>
             <a href="#contact" class="smoothscroll">Contact</a>
             <a target="_blank" href="https://ja-jp.facebook.com/Coccotree0418/"><i class="fa fa-facebook"></i></a>
             <a target="_blank" href="https://twitter.com/coccotree/"><i class="fa fa-twitter"></i></a>
             <a target="_blank" href="https://www.instagram.com/cocco_tree/"><i class="fa fa-instagram"></i></a>
-            <a class="smoothscroll" href="#contact"><i class="fa fa-envelope"></i></a>
+            <a href="#contactwrap" class="smoothscroll"><i class="fa fa-envelope"></i></a>
         </div>
 
         <!-- Menu button -->
         <div id="menuToggle"><i class="fa fa-bars"></i></div>
     </nav>
 
-    <!-- Home -->
-    <section id="home" name="home">
-        <div id="headerwrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <h1>Cocco tree</h1>
-                        <h2 style="font-size: 60px;color: white;text-shadow: 3px 3px 3px #000;">Cafe & Sweets</h2>
-                    </div>
+    <!-- Home (the first image) -->
+    <section id="home" name="home"></section>
+    <div id="headerwrap">
+        <div class="container">
+            <div class="row">
+                <!-- Controlled by bootstrap.min.css line 2619-->
+                <div class="col-md-6 col-md-offset-3">
+                    <h1>Cocco tree</h1>
+                    <!-- Font weight controlled by bootstrap.min.css line 1600-->
+                    <h2>Cafe & Sweets</h2>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Access -->
+    <section id="access" name="access" style="padding-top: 20px; padding-bottom: 30px;background-color: rgba(253,215,125,1);">
+        <div id="Access">
+            <h2 align="center">Access</h2>
+            <p align="center">
+                <iframe target="_blank" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.9358608607345!2d139.87319401564966!3d37.650711927059845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8ab6f1413bffff%3A0xf2d08fee511b8c0a!2z44Kz44OD44Kz44OE44Oq44O8!5e0!3m2!1sja!2sjp!4v1598255977864!5m2!1sja!2sjp"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </p>
+            <p align="center">
+                <img class="img-responsive" width="600" src="img/map-2.png">
+            </p>
+        </div>
     </section>
 
-    <!-- aboutwrap -->
-    <section id="about" name="about">
-        <div id="aboutwrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 name">
-                        <img class="img-responsive" src="img/IMGL6305.jpg">
-                        <p><b>コッコツリー</b></p>
-                        <a class="fancybox" href="img/IMGL6305.jpg" title="コッコツリー">
-                            <div class="name-label"></div>
-                        </a>
-                    </div>
-                    <div class="col-lg-8 name-desc">
-                        <h2>About</h2>
-                        <div class="name-zig"></div>
-
-                        <div class="col-md-6">
-                            <h3>開放的な店内</h3>
-                            <p>
-                                インテリアは明るいウッド調で、お洒落で天井が高い気持ちの良い空間となっており、 日当たりの良いソファ席や個室もあります。 キッズチェアーとベビーチェアーもご用意しておりますので、 小さいお子様連れのお客様にもゆっくりとカフェタイムを楽しんでいただけます。
-                            </p>
-                            <p>
-                                店内には、たまごの殻を使って作るワークスペースやおみくじなどの楽しめるコーナーもあります。 お土産にも喜ばれる、お持ち帰り用のスイーツ、お菓子や雑貨、コーヒー紅茶なども販売しております。
-                            </p>
+    <!-- About -->
+    <div class="sep about" data-stellar-background-ratio="0.5">
+        <section id="about" name="about">
+            <div id="aboutwrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 name">
+                            <img class="img-responsive" src="img/IMGL6305 - Copy.jpg">
+                            <p><b>コッコツリー</b></p>
+                            <a class="fancybox" href="img/IMGL6305.jpg" title="コッコツリー">
+                                <div class="name-label"></div>
+                            </a>
                         </div>
+                        <div class="col-lg-8 name-desc">
+                            <h2>About</h2>
+                            <div class="name-zig"></div>
 
-                        <div class="col-md-6">
-                            <h3>こだわりのたまご</h3>
-                            <p>
-                                喜多方のカフェ＆スイーツCocco tree(コッコツリー)は、たまごにこだわっているお店。 会津地鶏のたまごと県内産の新鮮なたまごを使い、店内で焼き上げたスイーツと ふわふわたまごのフードメニューをご提供しています。
-                            </p>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="coffee">
-                                <img class="coffee-img" width="200px" style="float:right; margin:0.5em" src="img/IMGL5332.jpg">
+                            <div class="col-md-6">
+                                <h3>開放的な店内</h3>
+                                <p>
+                                    インテリアは明るいウッド調で、お洒落で天井が高い気持ちの良い空間となっており、 日当たりの良いソファ席や個室もあります。 キッズチェアーとベビーチェアーもご用意しておりますので、 小さいお子様連れのお客様にもゆっくりとカフェタイムを楽しんでいただけます。
+                                </p>
+                                <p>
+                                    店内には、たまごの殻を使って作るワークスペースやおみくじなどの楽しめるコーナーもあります。 お土産にも喜ばれる、お持ち帰り用のスイーツ、お菓子や雑貨、コーヒー紅茶なども販売しております。
+                                </p>
                             </div>
-                            <h3>こだわりのコーヒー</h3>
-                            <p>
-                                Cocco tree(コッコツリー）の、スイーツによく合う香り高い珈琲は、 世界中の農園を旅して高品質の豆を追求する、 ミカフェート代表でコーヒーハンターの川島良彰氏が厳選したコーヒー豆を採用し、 ご注文いただいてから一杯づつ丁寧にハンドドリップで淹れています。
-                            </p>
+
+                            <div class="col-md-6">
+                                <h3>こだわりのたまご</h3>
+                                <p>
+                                    喜多方のカフェ＆スイーツCocco tree(コッコツリー)は、たまごにこだわっているお店。 会津地鶏のたまごと県内産の新鮮なたまごを使い、店内で焼き上げたスイーツと ふわふわたまごのフードメニューをご提供しています。
+                                </p>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h3>こだわりのコーヒー</h3>
+                                <p>
+                                    Cocco tree(コッコツリー）の、スイーツによく合う香り高い珈琲は、 世界中の農園を旅して高品質の豆を追求する、 ミカフェート代表でコーヒーハンターの川島良彰氏が厳選したコーヒー豆を採用し、 ご注文いただいてから一杯づつ丁寧にハンドドリップで淹れています。
+                                </p>
+
+                            </div>
 
                         </div>
 
                     </div>
-
+                    <!-- /row -->
                 </div>
-                <!-- /row -->
+                <!-- /container -->
             </div>
-            <!-- /container -->
-        </div>
-    </section>
+        </section>
+    </div>
 
-    <div class="sep about" data-stellar-background-ratio="0.5"></div>
     <!-- Menu -->
     <section id="menu" name="menu">
-        <div id="portfoliowrap">
+        <div id="menuwrap">
             <div class="container">
                 <h1>MENU</h1>
                 <div class="row">
-                    <div style="display: flex; justify-content: space-around; padding-left: 20%; padding-right: 20%">
+                    <div style="overflow:auto; white-space: nowrap; display: flex; justify-content: space-around; padding-left: 20%; padding-right: 20%">
                         <!-- List -->
                         <div class="et_pb_module">
                             <button id="pancake" class='secList'>Pancake</button>
@@ -163,7 +166,7 @@
                             <div class="row">
                                 <h1>Pancake</h1>
                                 <p>ナイフのいらないふわふわわたぐもパンケーキ　<a href="https://mevie.it/h637ehcqybzwnb548z95qbr3meyc7yzfma3exhva/?pw=">詳しくはこちらの動画！</a></p>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                                <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
                                     <div class="project-wrapper">
                                         <div class="project">
                                             <div class="photo-wrapper">
@@ -317,13 +320,13 @@
                                     <ul>
                                         <p>Bottle sweets　　<a href="https://mevie.it/kyu7dnqsrqroy9y7un3tl1af91p6kis9e8i9w6ek/?pw=">詳しくはこちらの動画！</a></p>
                                         <li>ボトルチーズケーキ
-                                        <li>ボトルこっこ＆ぷりん
-                                        <li>MIXベリー
-                                        <li>コーヒーゼリー
-                                        <li>福島県産もも
-                                        <li>
-                                            ココラムネ
-                                            <p>他にも様々な種類があります！ぜひ店頭で！！
+                                            <li>ボトルこっこ＆ぷりん
+                                                <li>MIXベリー
+                                                    <li>コーヒーゼリー
+                                                        <li>福島県産もも
+                                                            <li>
+                                                                ココラムネ
+                                                                <p>他にも様々な種類があります！ぜひ店頭で！！
                                     </ul>
                                     <img class="img-responsive" src="img/Cocco撮影写真_200901_1.jpg">
 
@@ -333,198 +336,182 @@
                             <!-- /row -->
                         </div>
                     </section>
-                </div>
-                <!--portfolio-->
 
-                <section id="lunch" name="menu">
-                    <div class="container lunch section">
-                        <div class="row">
-                            <h1>LUNCH <br>(10:00-14:00)</h1>
-                            <p>※すべてにミニサラダとスープが付きます</p>
+                    <section id="lunch" name="menu">
+                        <div class="container lunch section">
+                            <div class="row">
+                                <h1>LUNCH <br>(10:00-14:00)</h1>
+                                <p>※すべてにミニサラダとスープが付きます</p>
 
-                            <div class="col-lg-3 service">
-                                <p>会津地鶏のふわとろオムライス</p>
-                                <p class="text">会津地鶏の卵を使用し、ふわとろに仕上げた自慢の一品。コッコツリーといったらこれです！！</p>
-                                <p class="price">単品 ¥782+税</p>
-                                <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1132+税</a></p>
-                            </div>
-                            <div class="col-lg-3 service">
-                                <p>冷製トマトのクリーミーパスタ</p>
-                                <p class="text">パスタに生クリーム？！実はこれ、ビシソワーズを泡状にしたクリームなんです！新感覚の冷製パスタぜひお試しください。</p>
-                                <p class="price">単品 ¥827+税</p>
-                                <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1177+税</a></p>
-                            </div>
-                            <div class="col-lg-3 service">
-                                <p>会津地鶏の石焼きビーフシチューオムライス</p>
-                                <div class="photo-wrapper">
-                                    <div class="photo">
-                                        <a class="fancybox" href="img/DSC_0013.JPG" title="会津地鶏卵の石焼きビーフシチューオムライス　<br>単品1200+税 <br><a href=#setdrink>ドリンクバーセット 1550+税</a>"><img class="img-responsive" src="img/DSC_0013.JPG" alt=""></a>
-                                    </div>
-                                    <div class="overlay"></div>
+                                <div class="col-lg-3 service">
+                                    <p>会津地鶏のふわとろオムライス</p>
+                                    <p class="text">会津地鶏の卵を使用し、ふわとろに仕上げた自慢の一品。コッコツリーといったらこれです！！</p>
+                                    <p class="price">単品 ¥782+税</p>
+                                    <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1132+税</a></p>
                                 </div>
-                                <p class="text">ホロホロっととろけてしまうビーフシチューは絶品です！たまには贅沢なランチしてみませんか？</p>
-                                <p class="price">単品 ¥1200+税</p>
-                                <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1550+税</a></p>
-                            </div>
-                            <div class="col-lg-3 service">
-                                <p>会津地鶏卵のふわっとホットサンド</p>
-                                <div class="photo-wrapper">
-                                    <div class="photo">
-                                        <a class="fancybox" href="img/Cocco撮影写真_200901_30.jpg" title="会津地鶏卵のふわっとホットサンド　<br>単品650+税 <br><a href=#setdrink>ドリンクバーセット 1000+税</a>"><img class="img-responsive" src="img/Cocco撮影写真_200901_30.jpg" alt=""></a>
-                                    </div>
-                                    <div class="overlay"> </div>
-
+                                <div class="col-lg-3 service">
+                                    <p>冷製トマトのクリーミーパスタ</p>
+                                    <p class="text">パスタに生クリーム？！実はこれ、ビシソワーズを泡状にしたクリームなんです！新感覚の冷製パスタぜひお試しください。</p>
+                                    <p class="price">単品 ¥827+税</p>
+                                    <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1177+税</a></p>
                                 </div>
-                                <p class="text">ふわとろのオムレツとトマト、レタス、玉ねぎが入っています。お持ち帰りもできます。</p>
-                                <p class="price">単品 ¥650+税</p>
-                                <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1000+税</a></p>
-                            </div>
+                                <div class="col-lg-3 service">
+                                    <p>会津地鶏の石焼きビーフシチューオムライス</p>
+                                    <div class="photo-wrapper">
+                                        <div class="photo">
+                                            <a class="fancybox" href="img/DSC_0013.JPG" title="会津地鶏卵の石焼きビーフシチューオムライス　<br>単品1200+税 <br><a href=#setdrink>ドリンクバーセット 1550+税</a>"><img class="img-responsive" src="img/DSC_0013.JPG" alt=""></a>
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <p class="text">ホロホロっととろけてしまうビーフシチューは絶品です！たまには贅沢なランチしてみませんか？</p>
+                                    <p class="price">単品 ¥1200+税</p>
+                                    <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1550+税</a></p>
+                                </div>
+                                <div class="col-lg-3 service">
+                                    <p>会津地鶏卵のふわっとホットサンド</p>
+                                    <div class="photo-wrapper">
+                                        <div class="photo">
+                                            <a class="fancybox" href="img/Cocco撮影写真_200901_30.jpg" title="会津地鶏卵のふわっとホットサンド　<br>単品650+税 <br><a href=#setdrink>ドリンクバーセット 1000+税</a>"><img class="img-responsive" src="img/Cocco撮影写真_200901_30.jpg" alt=""></a>
+                                        </div>
+                                        <div class="overlay"> </div>
+
+                                    </div>
+                                    <p class="text">ふわとろのオムレツとトマト、レタス、玉ねぎが入っています。お持ち帰りもできます。</p>
+                                    <p class="price">単品 ¥650+税</p>
+                                    <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1000+税</a></p>
+                                </div>
 
 
-                            <div class="col-lg-3 service">
-                                <p>とろとろのとろ〜りチーズカレー</p>
-                                <p class="text">ピリ辛なキーマカレーとまろやかな卵とチーズが相性抜群!</p>
-                                <p class="price">単品 ¥782+税</p>
-                                <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1132+税</a></p>
+                                <div class="col-lg-3 service">
+                                    <p>とろとろのとろ〜りチーズカレー</p>
+                                    <p class="text">ピリ辛なキーマカレーとまろやかな卵とチーズが相性抜群!</p>
+                                    <p class="price">単品 ¥782+税</p>
+                                    <p class="price"><a class="smoothscroll" href=#setdrink>ドリンクバーセット ¥1132+税</a></p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
 
                 <section id="setdrink" name="menu">
                     <div class="container">
                         <div class="row">
                             <h1>Set Drink Bar</h1>
-                            <p>※ドリンクバー単品でのご注文はお受けしておりません。ご了承くださいませ。<p>
-                            <p>※ドリンクバーセットと書いてあるメニューが対象です。</p>
-                            <div class="col-lg-3">
-                                <h3>Coffee</h3>
-                                <p class="text">
-                                <p><small>ブレンドコーヒー</small></p>
-                                <p><small>アイスコーヒー</small></p>
-                                </p>
-                            </div>
-                            <div class="col-lg-3">
-                                <h3>Tea</h3>
-                                <p class="text">
-                                <p><small>ヴィンテージブラック</small></p>
-                                <p><small>エデンの果実</small></p>
-                                <p><small>白桃アールグレイ</small></p>
-                                <p><small>ハワイアンベリー</small></p>
-                                <p><small>完熟リンゴ</small></p>
-                                <p><small>ルイボスティー</small></p>
-                                <p><small>アイスティー</small></p>
-                                </p>
-                            </div>
-                            <div class="col-lg-3">
-                                <h3>Juice</h3>
-                                <p class="text">
-                                <p><small>本日のビネガー</small></p>
-                                <p><small>オレンジジュース</small></p>
-                                <p><small>アップルジュース</small></p>
-                                </p>
-                            </div>
+                            <p>※ドリンクバー単品でのご注文はお受けしておりません。ご了承くださいませ。
+                                <p>
+                                    <p>※ドリンクバーセットと書いてあるメニューが対象です。</p>
+                                    <div class="col-lg-3">
+                                        <h3>Coffee</h3>
+                                        <p class="text">
+                                            <p><small>ブレンドコーヒー</small></p>
+                                            <p><small>アイスコーヒー</small></p>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <h3>Tea</h3>
+                                        <p class="text">
+                                            <p><small>ヴィンテージブラック</small></p>
+                                            <p><small>エデンの果実</small></p>
+                                            <p><small>白桃アールグレイ</small></p>
+                                            <p><small>ハワイアンベリー</small></p>
+                                            <p><small>完熟リンゴ</small></p>
+                                            <p><small>ルイボスティー</small></p>
+                                            <p><small>アイスティー</small></p>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <h3>Juice</h3>
+                                        <p class="text">
+                                            <p><small>本日のビネガー</small></p>
+                                            <p><small>オレンジジュース</small></p>
+                                            <p><small>アップルジュース</small></p>
+                                        </p>
+                                    </div>
                         </div>
                     </div>
                 </section>
 
-</section>
+    </section>
 
-<!-- Recommend-->
-<section id="recommend" name="recommend">
-  <div class="container">
-    <h1 align=center>Recommend</h1>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active mb centered">
-              <div class="photo-wrapper img-wrap">
-                  <div class="photo">
-                      <a class="fancybox" rel="photo" href="img/Cocco撮影写真_200901_17.jpg"><img class="img-responsive" src="img/Cocco撮影写真_200901_17.jpg" alt=""></a>
+    <!-- Recommend-->
+    <section id="recommend" name="recommend" style="background-color: rgba(253, 215, 125, 1);">
+        <div class="container">
+            <h1 align=center>Recommend</h1>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active mb centered">
+                        <div class="photo-wrapper img-wrap">
+                            <div class="photo">
+                                <a class="fancybox" rel="photo" href="img/Cocco撮影写真_200901_17.jpg"><img class="img-responsive" src="img/Cocco撮影写真_200901_17.jpg" alt=""></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="item mb centered">
+                        <div class="photo-wrapper">
+                            <div class="photo">
 
-                  </div>
-                  <div class="overlay"></div>
-              </div>
-            </div>
-              <div class="item mb centered">
-              <div class="photo-wrapper">
-                  <div class="photo">
+                                <a class="fancybox" rel="photo" href="img/Cocco撮影写真_200901_22.jpg"><img class="img-responsive" src="img/Cocco撮影写真_200901_22.jpg" alt=""></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="item mb centered">
+                        <div class="photo-wrapper img-wrap">
+                            <div class="photo">
 
-                      <a class="fancybox" rel="photo"href="img/Cocco撮影写真_200901_22.jpg"><img class="img-responsive" src="img/Cocco撮影写真_200901_22.jpg" alt=""></a>
-                  </div>
-                  <div class="overlay"></div>
-              </div>
-            </div>
-            <div class="item mb centered">
-            <div class="photo-wrapper img-wrap">
-                <div class="photo">
+                                <a class="fancybox" rel="photo" href="img/Cocco撮影写真_200901_34.jpg" title="お店で僕と会おう！！"><img class="img-responsive" src="img/Cocco撮影写真_200901_34.jpg" alt=""></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="item mb centered">
+                        <div class="photo-wrapper">
+                            <div class="photo">
 
-                    <a class="fancybox" rel="photo" href="img/Cocco撮影写真_200901_34.jpg" title="お店で僕と会おう！！"><img class="img-responsive" src="img/Cocco撮影写真_200901_34.jpg" alt=""></a>
+                                <a class="fancybox" rel="photo" href="img/Cocco撮影写真_200901_35.jpg" title="CoccoTreeが店内ではみられます🎵"><img class="img-responsive" src="img/Cocco撮影写真_200901_35.jpg" alt=""></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+
+
                 </div>
-                <div class="overlay"></div>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+                </ol>
             </div>
-          </div>
-          <div class="item mb centered">
-          <div class="photo-wrapper">
-              <div class="photo">
-
-                  <a class="fancybox" rel="photo" href="img/Cocco撮影写真_200901_35.jpg" title="CoccoTreeが店内ではみられます🎵"><img class="img-responsive" src="img/Cocco撮影写真_200901_35.jpg" alt=""></a>
-              </div>
-              <div class="overlay"></div>
-          </div>
-        </div>
-
 
         </div>
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-              <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
-        </ol>
-    </div>
-
-</div>
-
-  </div>
-
-<!-- Social Media -->
-<div id="socialmedia">
-    <div class="container">
-        <div class="row">
-          <div class="item active mb centered">
-              <h3>Twitter</h3>
-              <p>
-                  <a target="_blank" href="https://twitter.com/coccotree/"><i class="fa fa-twitter"></i></a>
-              </p>
-              <a class="twitter-timeline" href="https://twitter.com/CoccoTree?ref_src=twsrc%5Etfw" data-widget-id="profile:kawakyo0603" title="Twitterタイムライン">
-                  Tweets by CoccoTree
-                  <script class="twitter-feed" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              </a>
-              <p><img class="img-circle" src="img/profpic.jpg" width="80"></p>
-          </div>
-
-    </div>
-</div>
-</div>
-    <!-- Access -->
-    <section id="access" name="access">
-        <div id="Access">
-            <h3 align="center">Access</h3>
-            <p align="center">
-                <iframe target="_blank" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.9358608607345!2d139.87319401564966!3d37.650711927059845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8ab6f1413bffff%3A0xf2d08fee511b8c0a!2z44Kz44OD44Kz44OE44Oq44O8!5e0!3m2!1sja!2sjp!4v1598255977864!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </p>
-            <p align="center">
-                <img class="img-responsive" width="600" height="450" src="img/map.PNG">
-            </p>
         </div>
     </section>
+
+    <!-- Social Media -->
+    <div id="socialmedia">
+        <div class="container">
+            <div class="row">
+                <div class="item active mb centered">
+                    <h2>Twitter</h2>
+                    <p>
+                        <a target="_blank" href="https://twitter.com/coccotree/"><i class="fa fa-twitter"></i></a>
+                    </p>
+                    <a class="twitter-timeline" href="https://twitter.com/CoccoTree?ref_src=twsrc%5Etfw" data-widget-id="profile:kawakyo0603" title="Twitterタイムライン">
+                            Tweets by CoccoTree
+                            <script class="twitter-feed" src="https://platform.twitter.com/widgets.js"
+                                charset="utf-8"></script>
+                        </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <!-- Contacts -->
-    <section id="contact" name="contact">
-        <div class="sep contact" data-stellar-background-ratio="0.5"></div>
-    </section>
     <div id="contactwrap">
         <div class="container">
             <div class="row">
@@ -535,21 +522,22 @@
                     </p>
                     <p>
                         <small>
-                            〒966-0814<br />
-                            福島県喜多方市御清水3<br />
-                            Google Map: <a target="_blank" href="https://goo.gl/maps/ruKzBhfw8mvtySQ17">https://goo.gl/maps/ruKzBhfw8mvtySQ17</a><br />
-                            *お車でお越しの方は隣のラーメン館駐車場へお止めください<br />
+                                〒966-0814<br />
+                                福島県喜多方市御清水3<br />
+                                Google Map: <a target="_blank"
+                                    href="https://goo.gl/maps/ruKzBhfw8mvtySQ17">https://goo.gl/maps/ruKzBhfw8mvtySQ17</a><br />
+                                *お車でお越しの方は隣のラーメン館駐車場へお止めください<br />
 
-                            クレジットカード使用可、喜多方市役所ATM 徒歩1分<br />
-                        </small>
+                                クレジットカード使用可、喜多方市役所ATM 徒歩1分<br />
+                            </small>
                     </p>
                     <p>
                         <small>
-                            Tel. 0241-21-1417<br />
-                            営業時間 : 10:00-17:00<br />
-                            ランチタイム  ：10:00-14:00<br />
-                            定休日 	第３火曜日（祝日の際は営業）
-                        </small>
+                                Tel. 0241-21-1417<br />
+                                営業時間 : 10:00-17:00<br />
+                                ランチタイム ：10:00-14:00<br />
+                                定休日 第３火曜日（祝日の際は営業）
+                            </small>
                     </p>
 
                 </div>
